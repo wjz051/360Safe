@@ -2,9 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SafeWidget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="about_us.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -95,9 +92,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="SafeWidget.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="about_us.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -160,11 +154,6 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="SafeWidget.ui">
-      <Filter>Form Files</Filter>
-    </QtUic>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -182,7 +171,7 @@
     <Text Include="readMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="Resources\SafeWidget.qrc">
+    <QtRcc Include="Resources\360safe.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
   </ItemGroup>

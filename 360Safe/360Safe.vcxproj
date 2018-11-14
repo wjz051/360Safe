@@ -129,7 +129,6 @@
     <ClCompile Include="msg_box.cpp" />
     <ClCompile Include="push_button.cpp" />
     <ClCompile Include="register_widget.cpp" />
-    <ClCompile Include="SafeWidget.cpp" />
     <ClCompile Include="setting_dialog.cpp" />
     <ClCompile Include="shadow_widget.cpp" />
     <ClCompile Include="skin_widget.cpp" />
@@ -137,12 +136,6 @@
     <ClCompile Include="title_widget.cpp" />
     <ClCompile Include="tool_button.cpp" />
     <ClCompile Include="util.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="SafeWidget.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="SafeWidget.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="about_us.h">
@@ -284,7 +277,7 @@
     <Text Include="readMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="Resources\SafeWidget.qrc" />
+    <QtRcc Include="Resources\360safe.qrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
